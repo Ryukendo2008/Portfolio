@@ -1,0 +1,41 @@
+body{
+    font-family: cursive;
+    font-size: 25px;
+    margin: 0;
+}
+.half-width{
+    width: 50%;
+    padding-left: 40px;
+}
+section{
+    display: flex;
+}
+img{
+    width: 80%;
+    padding-top: 20px;
+}
+span{
+    color: red;
+}
+h1{
+    font-size: 40px;
+}
+a{
+    padding: 10px 40px;
+    background-image: linear-gradient( orange, orangered);
+    color: wheat;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.top-ban{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.mid{
+    padding-top: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+
+    background-position-x: right;
+    background-position-y: 20px;
+}
