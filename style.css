@@ -2,6 +2,7 @@ body{
     font-family: cursive;
     font-size: 25px;
     margin: 0;
+    padding-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -23,9 +24,17 @@ h1{
 a{
     padding: 10px 40px;
     background-image: linear-gradient( orange, orangered);
-    color: wheat;
+    color: white;
     text-decoration: none;
     border-radius: 25px;
+}
+a:hover{
+    background-image: linear-gradient(cyan, blue);
+    color: white;
+}
+a:active{
+    background-image: linear-gradient(crimson, red);
+    color: white;
 }
 .top-ban{
     background-image: url(images/top-banner.png);
@@ -37,5 +46,42 @@ a{
     background-repeat: no-repeat;
 
     background-position-x: right;
-    background-position-y: 20px;
+    background-position-y: 70px;
+}
+.flex{
+    display: flex;
+}
+.last{
+    display: block;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 200px;
+    padding-top: 80px;
+}
+.box{
+    width: 45%;
+    box-shadow: 20px 20px 60px gray;
+    margin: 0% 5%;
+    padding-left: 20px;
+}
+#ex-bor{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+#ex-bord{
+    border-image: linear-gradient(deeppink ,fuchsia);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+.mr{
+    margin: 0% 5%;
+}
+.half-width img{
+    width: 100%;
+    margin-bottom: -10px;
+}
+footer p{
+    text-align: center;
 }
